@@ -1,0 +1,42 @@
+#container{
+    position: relative;
+    margin: auto;
+    height: 45vw;
+    width: 45vw;
+    background: url(pr.png) no-repeat;
+    background-size: 98%;
+}
+
+#hour,#min,#sec{
+    position:absolute;
+    border-radius: 10px;
+}
+
+#hour{
+    width: 2%;
+    height: 30%;
+    top: 20.5%;
+    left: 47.8%;
+    transform-origin: bottom;
+    background-color: black;
+    z-index: 1;
+}
+
+#min{
+    width: 1.5%;
+    height: 35%;
+    top: 14.8%;
+    left: 48%;
+    transform-origin: bottom;
+    background: blue;
+    z-index: 2;
+}
+#sec{
+    width: 1%;
+    height: 40%;
+    top: 9.5%;
+    left: 48%;
+    transform-origin: bottom;
+    background: red;
+    z-index: 3;
+}
